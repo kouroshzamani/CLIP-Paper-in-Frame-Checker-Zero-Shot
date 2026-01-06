@@ -101,7 +101,7 @@ stage 1 scores (paper, no_paper)
 stage 2 scores (full_view, partial_view)
 
 delta (full_view - partial_view)
-
+```
 Example Output
 text
 Copy code
