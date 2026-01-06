@@ -102,9 +102,11 @@ stage 2 scores (full_view, partial_view)
 
 delta (full_view - partial_view)
 ```
+
+```bash
+
 Example Output
-text
-Copy code
+
 IMAGE CANDIDATES: 5
 FILES: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']
 PAPER_MARGIN=0.2 | FULL_VIEW_MARGIN=0.35 | AGG_TOPK=2
@@ -136,6 +138,8 @@ Interpretation
 3.jpg → full (full-view score clearly beats partial-view by the threshold)
 
 5.jpg → no_paper (paper did not confidently beat no_paper in stage 1)
+
+```
 
 Notes / Limitations
 This is a CLIP-only approach (global understanding). It may confuse:
