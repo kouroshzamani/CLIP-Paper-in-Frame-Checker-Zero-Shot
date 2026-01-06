@@ -103,9 +103,9 @@ stage 2 scores (full_view, partial_view)
 delta (full_view - partial_view)
 ```
 
+---
 
-
-##Example Output
+## Example Output
 ```bash
 IMAGE CANDIDATES: 5
 FILES: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']
