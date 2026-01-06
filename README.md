@@ -103,10 +103,10 @@ stage 2 scores (full_view, partial_view)
 delta (full_view - partial_view)
 ```
 
+
+
+##Example Output
 ```bash
-
-Example Output
-
 IMAGE CANDIDATES: 5
 FILES: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']
 PAPER_MARGIN=0.2 | FULL_VIEW_MARGIN=0.35 | AGG_TOPK=2
